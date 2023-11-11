@@ -11,7 +11,7 @@ WHERE
 
 SELECT
   entity.name AS Nom, entity.lifetime AS Durée,
-  entity.lifetime / 365.25 AS lifetime_in_years
+  entity.lifetime / 365.25 AS Durée_en_année
 FROM
   entity
 WHERE
